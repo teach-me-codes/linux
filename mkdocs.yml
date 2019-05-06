@@ -62,6 +62,9 @@ nav:
   - Create, Delete and Modify Local User Accounts: user/D-user-accounts.md
   - Create, Delete and Modify Local Groups : user/D-user-accounts.md
 
+- Storage:
+  - Storage Management: storage/F-storage-management.md
+
 
 - Network:
   - Configure Network Services : network/E-1-Network-start.md
@@ -74,6 +77,12 @@ nav:
   - Network HTTP : network/E-8-Network-HTTP-Server.md
   - Network SSL : network/E-9-Network-SSL-Apache.md
   - Network Virtual Web Hosting: network/E-10-Network-Virtual-Web-Host.md
+
+- Virtualization:
+  - Virtualization: virtual/G-virtualization.md
+
+
+
 
 
 

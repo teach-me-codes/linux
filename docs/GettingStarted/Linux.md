@@ -1,57 +1,27 @@
-# Installing Python
 
-To install Anaconda Python follow the instruction  at [Anaconda Distribution Website](https://www.anaconda.com/distribution/). Based on the operating system select the proper version of the Anaconda package and install it in your PC.
+# What is Linux?
 
-After you successfully install the proper version, you will get anaconda application in you PC which will look like the figure below:
+Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.
 
-![img](https://docs.anaconda.com/_images/navigator-home-1-6.png)
+The OS is comprised of a number of pieces: 
 
-Best way to start with is the "Jupyter notebook". Lunch the jupyter notebook to start with Python.
+### The Bootloader: The software that manages the boot process of your computer. For most users, this will simply be a splash screen that pops up and eventually goes away to boot into the operating system.
 
-### Note- Linux: 
+### The kernel: This is the one piece of the whole that is actually called “Linux”. The kernel is the core of the system and manages the CPU, memory, and peripheral devices. The kernel is the “lowest” level of the OS.
 
-- For Linux user, it could be little bit tricky. SOme time it becomes hard to locate anaconda path to the environment so you need to point the python you want to use. Please, run the command below to point the python:
+### Daemons: These are background services (printing, sound, scheduling, etc) that either start up during boot, or after you log into the desktop.
 
-```bash
-export PATH=/home/ubuntu/anaconda3/bin:$PATH
- ```
+### The Shell: You’ve probably heard mention of the Linux command line. This is the shell – a command process that allows you to control the computer via commands typed into a text interface. This is what, at one time, scared people away from Linux the most (assuming they had to learn a seemingly archaic command line structure to make Linux work). This is no longer the case. With modern desktop Linux, there is no need to ever touch the command line.
+
+### Graphical Server: This is the sub-system that displays the graphics on your monitor. It is commonly referred to as the X server or just “X”.
+
+### Desktop Environment: This is the piece of the puzzle that the users actually interact with. There are many desktop environments to choose from (Unity, GNOME, Cinnamon, Enlightenment, KDE, XFCE, etc). Each desktop environment includes built-in applications (such as file managers, configuration tools, web browsers, games, etc).
+
+### Applications: Desktop environments do not offer the full array of apps. Just like Windows and Mac, Linux offers thousands upon thousands of high-quality software titles that can be easily found and installed. Most modern Linux distributions (more on this in a moment) include App Store-like tools that centralize and simplify application installation. For example: Ubuntu Linux has the Ubuntu Software Center (Figure 1) which allows you to quickly search among the thousands of apps and install them from one centralized location. 
+
+
+### Sources
+1. [www.linux.com](https://www.linux.com/what-is-linux)
+
  
-- There is 'base' or 'anaconda3' environment by defult. You can find the list of available environmet by typing following command on the terminal
-
-
-```bash
-conda env list
- ```
- 
-- To start the 'base' environment type
-
-
-```bash
-source activate base
- ```
-
-- To install new package for example 'jupyter notebook' type
-
-
-```bash
-pip install jupyter notebook
- ```
-
-
-- After sucessfully installing Jupyter notebook, tye following to start it
-
-
-```bash
-Jupyter notebook
- ```
-
-
-### Note - Cloud
-
-- For running Jupyter notebook in AWS cloud, it is important to open the "8888" to "8889" with TCP rule with IP "0.0.0.0" and allow to be opend from anywhere. Once port is open, type following to 
-
-
-```bash
- jupyter notebook --ip=0.0.0.0 --no-browser
- ```
 
