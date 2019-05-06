@@ -1,0 +1,27 @@
+### List, Set and Change Standard File Permissions
+
+- ```chmod``` : Used to change the read, write and execute privileges of a file or directory for the owner, the group(s) they belong to, and all others (often called everyone)
+- ```chmod 777 somefile.txt``` : This would change the file somefile.txt to read/write/execute for the owner, the group belonged to, and everyone else (universal permissions)
+- Numeric and character values for the permissions are as follows:
+  - ```r – 4``` – Read permissions
+  - ```w – 2``` – Write permissions
+  - ```x – 1``` – Execute permissions
+    -  Adding these values together determines the privilege number
+- Example: ```chmod 755 somefile.txt```
+  - User: read (4) + write (2) + execute (1) = 7
+  - Group: read (4) + execute (1) = 5
+  - Everyone: read (4) + execute (1) = 5
+- Permissions can also be changed by single category using character representation
+- Example: ```chmod g+rw somefile.txt```
+  - Adds group permissions of read and write to the file called ```somefile.txt```
+    - Character values as follows:
+    - ```u``` – User
+    - ```g``` – Group
+    - ```a``` – Everyone
+    - ```r``` – Read
+    - ```w``` – Write
+    - ```x``` – Execute
+    - ```+``` – Add the values indicated
+    - ```-``` – Remove the values indicated
+- ```chown```: Change ownership to a specific user and/or group
+- ```chgrp```: Change group ownership to a specific group
