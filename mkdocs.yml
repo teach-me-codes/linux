@@ -46,24 +46,24 @@ nav:
   - Transfer Files Securely via SFTP/SCP: file/6-transfer-files.md
 
 
-Process:
+- Process:
   - Change the Priority of a Process: process/7-priority-process.md
   - Manage the Startup Processes and Services: process/8-start-processes-services.md
   - Managing User Processes: process/9-user-processes.md
 
 
-Installing Software:
+- Installing Software:
   - Installing Software Packages: software/B-installing-software.md
   - Stting Standard File Permissions : software/A-file-permissions-ownership.md
   - Shell commands notation: software/C-shell.md
 
 
-User Accounts:
+- User Accounts:
   - Create, Delete and Modify Local User Accounts: user/D-user-accounts.md
   - Create, Delete and Modify Local Groups : user/D-user-accounts.md
 
 
-Network:
+- Network:
   - Configure Network Services : network/E-1-Network-start.md
   - Network Packet Filtering: network/E-2-Network-Packet-Filtering.md
   - Network Performance : network/E-3-Network-Performance.md
