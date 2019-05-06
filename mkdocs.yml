@@ -38,42 +38,42 @@ nav:
 
   
 - File and Permission:
-  - How to Create and Edit Text Files: 1-create-edit-textFiles.md
-  - How to Search Files: 2-search-files.md
-  - Redirection, Compare Text and Binary File: 3-redirection.md
-  - Archive, Compress, Unpack and Decompress Files: 4-archive-compress.md
-  - List, Set and Change Standard File Permissions : 5-file-permissions.md
-  - Transfer Files Securely via SFTP/SCP: 6-transfer-files.md
+  - How to Create and Edit Text Files: file/1-create-edit-textFiles.md
+  - How to Search Files: file/2-search-files.md
+  - Redirection, Compare Text and Binary File: file/3-redirection.md
+  - Archive, Compress, Unpack and Decompress Files: file/4-archive-compress.md
+  - List, Set and Change Standard File Permissions : file/5-file-permissions.md
+  - Transfer Files Securely via SFTP/SCP: file/6-transfer-files.md
 
 
 Process:
-  - Change the Priority of a Process: 7-priority-process.md
-  - Manage the Startup Processes and Services: 8-start-processes-services.md
-  - Managing User Processes: 9-user-processes.md
+  - Change the Priority of a Process: process/7-priority-process.md
+  - Manage the Startup Processes and Services: process/8-start-processes-services.md
+  - Managing User Processes: process/9-user-processes.md
 
 
 Installing Software:
-  - Installing Software Packages: B-installing-software.md
-  - Stting Standard File Permissions : A-file-permissions-ownership.md
-  - Shell commands notation: C-shell.md
+  - Installing Software Packages: software/B-installing-software.md
+  - Stting Standard File Permissions : software/A-file-permissions-ownership.md
+  - Shell commands notation: software/C-shell.md
 
 
 User Accounts:
-  - Create, Delete and Modify Local User Accounts: D-user-accounts.md
-  - Create, Delete and Modify Local Groups : D-user-accounts.md
+  - Create, Delete and Modify Local User Accounts: user/D-user-accounts.md
+  - Create, Delete and Modify Local Groups : user/D-user-accounts.md
 
 
 Network:
-  - Configure Network Services : E-1-Network-start.md
-  - Network Packet Filtering: E-2-Network-Packet-Filtering.md
-  - Network Performance : E-3-Network-Performance.md
-  - Network Firewall : E-4-Network-Firewall.md
-  - Network Sharing : E-5-Network-Sharing.md
-  - Network SMTP: E-6-Network-SMTP.md
-  - Network SSH: E-7-Network-SSH.md
-  - Network HTTP : E-8-Network-HTTP-Server.md
-  - Network SSL : E-9-Network-SSL-Apache.md
-  - Network Virtual Web Hosting: E-10-Network-Virtual-Web-Host.md
+  - Configure Network Services : network/E-1-Network-start.md
+  - Network Packet Filtering: network/E-2-Network-Packet-Filtering.md
+  - Network Performance : network/E-3-Network-Performance.md
+  - Network Firewall : network/E-4-Network-Firewall.md
+  - Network Sharing : network/E-5-Network-Sharing.md
+  - Network SMTP: network/E-6-Network-SMTP.md
+  - Network SSH: network/E-7-Network-SSH.md
+  - Network HTTP : network/E-8-Network-HTTP-Server.md
+  - Network SSL : network/E-9-Network-SSL-Apache.md
+  - Network Virtual Web Hosting: network/E-10-Network-Virtual-Web-Host.md
 
 
 
