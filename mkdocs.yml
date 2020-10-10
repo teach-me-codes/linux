@@ -1,10 +1,18 @@
-site_name: TeachMe.Codes
+site_name: Linux Tutorials
+
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math
+    
 
 
 theme:
-  name: 'rtd-dropdown'
+  name: 'material'
   highlightjs: true
-  hljs_languages: []
+  hljs_languages: [python]
   include_homepage_in_sidebar: true
   prev_next_buttons_location: bottom
   navigation_depth: 4
@@ -12,9 +20,9 @@ theme:
   sticky_navigation: true
   collapse_navigation: true
  
- 
+
   
-      
+  
 markdown_extensions:
   - codehilite:
       linenums: false
@@ -22,6 +30,7 @@ markdown_extensions:
       use_pygments: true
       noclasses: true
       pygments_style: manni
+      
 
 
 nav:
