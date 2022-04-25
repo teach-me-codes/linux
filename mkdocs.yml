@@ -32,6 +32,12 @@ markdown_extensions:
       pygments_style: manni
       
 
+extra:
+  analytics:
+    provider: google
+    property: UA-156178967-1
+      
+
 
 nav:
 - Home: index.md
